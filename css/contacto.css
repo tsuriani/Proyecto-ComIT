@@ -1,0 +1,14 @@
+form > * {
+    vertical-align: middle;
+    display: block;
+    padding: 1%;
+    width: 100%;
+    }
+
+    textarea {
+      resize: none;
+      height: auto;
+      width: 100%;
+      min-height: 150px;
+      overflow: auto;
+    }

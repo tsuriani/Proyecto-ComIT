@@ -1,0 +1,17 @@
+img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    text-align: left;
+  }
+
+  article {
+    border: black 1px solid;
+    padding: 2%;
+    margin: 2%;
+  }
+
+  a {
+    text-decoration: none;
+    color: blue;
+  }

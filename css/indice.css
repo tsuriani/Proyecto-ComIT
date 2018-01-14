@@ -1,0 +1,29 @@
+.container-bottom > div {
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+  }
+
+  a {
+    text-decoration: none;
+    color: #4caf50; /* or black*/
+  }
+
+  ul {
+    list-style:none;
+  }
+
+  table {
+    border-collapse: collapse;
+  }
+
+  table, th, td {
+      border: 1px solid black;
+      padding: 1%;
+  }

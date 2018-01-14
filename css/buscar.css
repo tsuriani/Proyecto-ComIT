@@ -1,0 +1,17 @@
+#datos	{border:1px solid black;
+    padding:10px;
+    
+    }
+
+   #datos tr:nth-child(even) {
+       background:#ccc;
+       }
+
+   #datos td {
+       padding:5px;
+       } 
+   
+   a {
+       text-decoration: none;
+       color: blue;
+   }

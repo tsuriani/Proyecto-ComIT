@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+    <meta charset="UTF-8">
+    <title>Blayer Comics - Buscar</title>
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
+    <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Open+Sans'>
+    <link href="css/buscar.css" type="text/css" rel="stylesheet"><!--Buscador-->
+    <link href="css/menuResponsive.css" type="text/css" rel="stylesheet"><!--Menu Responsive-->    
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <a href="inicio.html" class="logo">Blayer Comics</a>
+        <nav class="nav-collapse">
+          <ul>
+            <li class="menu-item"><a href="buscar.html">Buscar</a></li>
+            <li class="menu-item"><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="container container-bottom">
+      <h1>Buscador</h1>
+      <form>
+      <b>Introduza palabras a buscar: </b><input id="searchTerm" type="text" onkeyup="doSearch()" />
+      </form>
+      <br />
+    <div style="overflow-x:auto;">
+    <table id="datos">
+      <tr>
+        <th>Nombre</th>
+        <th>Género/s</th>
+        <th>Categoria/s</th>
+        <th>Editorial</th>
+        <th>Guionista/s</th>
+        <th>Dibujante/s</th>
+        <th>Colorista/s</th>
+        <th>Estado</th>
+        <th>Publicación</th>
+        <th>Finalización</th>
+      </tr> 
+      <tr>
+        <td><a href="#">300</a></td>
+        <td>Epico; Aventura; Bélico</td>
+        <td>Novela gráfica</td>
+        <td>Dark Horse comics</td>
+        <td>Frank Miller</td>
+        <td>Frank Miller</td>
+        <td>Lynn Varley</td>
+        <td>Finalizado</td>
+        <td>1998</td>
+        <td>1998</td>
+      </tr>               
+      <tr>
+        <td><a href="indice.html">Rover Red Charlie</a></td>
+        <td>Aventura; Ficción; Humor negro</td>
+        <td>Novela gráfica</td>
+        <td>Avatar Press</td>
+        <td>Garth Ennis</td>
+        <td>Michael Dipascale</td>
+        <td>Michael Dipascale</td>
+        <td>Finalizado</td>
+        <td>2014</td>
+        <td>2014</td>
+      </tr>                
+      <tr>
+        <td><a href="#">Watchmen</a></td>
+        <td>Superhéroe; Bélico; Ciencia Ficción</td>
+        <td>Novela gráfica</td>
+        <td>DC comics</td>
+        <td>Alan Moore</td>
+        <td>Dave Gibbons</td>
+        <td>John Higgins</td>
+        <td>Finalizado</td>
+        <td>1986</td>
+        <td>1987</td>
+      </tr>                
+    </table>
+    </div>
+    </div>
+    <script src='https://cdn.rawgit.com/viljamis/responsive-nav.js/master/responsive-nav.min.js'></script>
+    <script src='js/responsive-nav.js'></script>
+    <script src="js/index.js"></script>
+    <script src="js/buscar.js"></script>
+  </body>
+</html>

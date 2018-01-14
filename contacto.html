@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+    <meta charset="UTF-8">
+    <title>Iniciar Sesión</title>
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
+    <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Open+Sans'>
+    <link href="css/menuResponsive.css" type="text/css" rel="stylesheet"><!--Menu Responsive-->
+    <link href="css/contacto.css" type="text/css" rel="stylesheet"><!--Formulario de Contacto-->
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <a href="inicio.html" class="logo">Blayer Comics</a>
+        <nav class="nav-collapse">
+          <ul>
+            <li class="menu-item"><a href="buscar.html">Buscar</a></li>
+            <li class="menu-item"><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="container container-bottom">
+      <h1>Pongámonos en contacto</h1>
+      <form action="#" method="post" enctype="application/x-www-form-urlencoded" name="contacto">
+        <label><b>Nombre y Apellido:</b></label>
+        <input type="text" name="nombre" maxlength="40" required>
+        <label><b>Correo electrónico:</b></label>
+        <input type="mail" name="mail" maxlength="40" required>
+        <label><b>Asunto:</b></label>
+        <input type="text" name="asunto"maxlength="40">
+        <label><b>Mensaje:</b></label>
+        <textarea maxlength="1000"></textarea>
+        <br />
+        <input type="submit" value="Enviar" required>
+      </form>
+    </div>
+    <script src='https://cdn.rawgit.com/viljamis/responsive-nav.js/master/responsive-nav.min.js'></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
