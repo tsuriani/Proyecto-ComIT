@@ -1,7 +1,7 @@
 # ProyectoFinal-ComIT
 La idea del proyecto es una página para descargar y leer comics online:<br />
 <b>Lado del cliente (Front end):</b> <br />
-Casi terminado, el problema radica en que tengo un archivo HTML para cada capítulo de comic. La idea es tener un sólo archivo HTML utilizable para cualquier comics, ya que el contenido del mismo deberá depender del comic que se esté viendo.
+Casi terminado, el problema radica en que tengo un archivo HTML para cada indice/capítulo de comic. La idea es tener un sólo archivo HTML utilizable para cualquier comic, ya que el contenido del mismo deberá depender del comic que se esté viendo.
 El plan es guardar toda la información de los comics en un archivo JSON, y que los datos de este, sean los que se visualicen en el archivo HTML.
 
 Archivos y funciones:
